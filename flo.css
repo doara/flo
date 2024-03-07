@@ -1,0 +1,44 @@
+.section img {
+  width: 300px; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 50%; /* Make the image circular */
+  margin-bottom: 10px; /* Add some space below the image */
+}
+body {
+  font-family: 'Andalé Mono', monospace;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+h1, h2, h3 {
+  color: #313;
+}
+p {
+  margin: 10px 0;
+}
+.section {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 4px solid #000; /* Updated border thickness and color */
+  border-radius: 4px;
+  transition: box-shadow 0.3s ease;
+}
+.section:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.columns {
+  display: flex;
+  flex-wrap: wrap;
+}
+.column {
+  width: 30%;
+}
+
